@@ -7,7 +7,6 @@ use PHPUnit\Framework\TestCase;
 use PHPUnit\Framework\Attributes\CoversClass;
 
 #[CoversClass(NumberChecker::class)]
-
 class NumberCheckerTest extends TestCase
 {
     public function testEven() {

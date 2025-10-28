@@ -20,15 +20,18 @@ class NumberChecker  {
 ?>
 
 exercise-1/
-	├── .phpunit.cache/
+	├── .phpunit.cache/				# folder excluded from GitHub (.gitignore)
 	│   	  └── test-results
+	├── .vscode/					# folder excluded from GitHub (.gitignore)
+	│   	  └── launch.json
 	├── src/
 	│    └── NumberChecker.php
 	├── tests/
 	│    └── NumberCheckerTest.php
-	├── vendor/
+	├── vendor/						# folder excluded from GitHub (.gitignore)
+	├── .gitignore
 	├── composer.json
-	├── composer.lock
+	├── composer.lock				# file excluded from GitHub (.gitignore)
 	├── phpunit.xml
 	└── README.md
 
